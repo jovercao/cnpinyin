@@ -1,13 +1,13 @@
-# pinyin - 汉字转拼音
+# cnpinyin - 汉字转拼音
 
 ## 使用方法
 
 ```bash
-npm install jovercao/pinyin --save
+npm install cnpinyin --save
 ```
 
 ```js
-import pinyin from 'pinyin'
+import pinyin from 'cnpinyin'
 
 // 获取全拼字母
 pinyin('中华人民共和国'); // ZhongHuaRenMinGongHeGuo
@@ -16,4 +16,3 @@ pinyin('中华人民共和国'); // ZhongHuaRenMinGongHeGuo
 pinyin.initials('中华人民共和国'); // ZHRMGHG
 
 ```
-
